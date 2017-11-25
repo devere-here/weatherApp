@@ -1,0 +1,35 @@
+<head>
+  <title>Weather App</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+
+<div id="container">
+  <div id="header">
+    <h1 style = "float:left">Local Weather App</h1>
+    <div id = "button-div">
+      <button id="celsius-button"><b>Celsius</b></button>
+      <button id="fahrenheit-button"><b>Fahrenheit</b></button>
+    </div>
+  </div>
+  <div id="weatherData">
+    <div class="weatherDataItems" id="temp">
+      <h2>Temperature</h2>
+      <p></p>
+    </div>
+    <div class="weatherDataItems" id="weather">
+      <h2>Weather</h2>
+      <p></p>
+    </div>
+    <div class="weatherDataItems" id="location">
+      <h2>Location</h2>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="actions.js"></script>
